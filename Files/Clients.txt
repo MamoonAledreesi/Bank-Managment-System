@@ -1,0 +1,8 @@
+A2,ali,mohammed,12,771-156-489,ali2email.com,5000
+A101,mamoon,abod,77,771-156-489,mamoon@gmail.com,8000
+A12,jak,Ali,57,771-156-489,mamoon@gmail.,722
+A11,ali,ahmed,1777,771-156-489,mamoon@gmail.com,7444
+A13,Mamoon,Ali,18,771-156-489,Mamoon@gmail.com,7000
+A20,mamoon,aledreesi,20,771156489,mamoon@gmail.com,155
+A9,ayamn,Lotf,22,716999169,ayman@gmail.com,8000
+A10,ali,adel,30,771156489,mamoon@gmail.com,5100

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E218CBD3-E6DD-41C1-822C-714AFD2D4B9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bank_Managment_System</RootNamespace>
+    <AssemblyName>Bank Managment System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clients\clsClients.cs" />
+    <Compile Include="clients\frmAddNewClientScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clients\frmAddNewClientScreen.Designer.cs">
+      <DependentUpon>frmAddNewClientScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clients\frmClientsMainMenuScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clients\frmClientsMainMenuScreen.Designer.cs">
+      <DependentUpon>frmClientsMainMenuScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clients\frmShowAllClientsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clients\frmShowAllClientsScreen.Designer.cs">
+      <DependentUpon>frmShowAllClientsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clients\frmUpdateClientScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clients\frmUpdateClientScreen.Designer.cs">
+      <DependentUpon>frmUpdateClientScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsLoginEntry.cs" />
+    <Compile Include="Currencies\clsCurrencies.cs" />
+    <Compile Include="Currencies\frmFindcurrencyScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Currencies\frmFindcurrencyScreen.Designer.cs">
+      <DependentUpon>frmFindcurrencyScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Currencies\frmUpdateRatesScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Currencies\frmUpdateRatesScreen.Designer.cs">
+      <DependentUpon>frmUpdateRatesScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCurrencyExchange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCurrencyExchange.Designer.cs">
+      <DependentUpon>frmCurrencyExchange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginRegisters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginRegisters.Designer.cs">
+      <DependentUpon>frmLoginRegisters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginScreen.Designer.cs">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenueScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMenueScreen.Designer.cs">
+      <DependentUpon>frmMainMenueScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transactions\clsTransferLogEntry.cs" />
+    <Compile Include="Transactions\frmDepositscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\frmDepositscreen.Designer.cs">
+      <DependentUpon>frmDepositscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\frmTotalBalncesScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\frmTotalBalncesScreen.Designer.cs">
+      <DependentUpon>frmTotalBalncesScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\frmTransactionsMainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\frmTransactionsMainScreen.Designer.cs">
+      <DependentUpon>frmTransactionsMainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\frmTransferLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\frmTransferLog.Designer.cs">
+      <DependentUpon>frmTransferLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\frmTransferScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\frmTransferScreen.Designer.cs">
+      <DependentUpon>frmTransferScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\clsUser.cs" />
+    <Compile Include="Users\frmAddNewUserscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmAddNewUserscreen.Designer.cs">
+      <DependentUpon>frmAddNewUserscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmShowAllUsersScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmShowAllUsersScreen.Designer.cs">
+      <DependentUpon>frmShowAllUsersScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUpdateUserInfoScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUpdateUserInfoScreen.Designer.cs">
+      <DependentUpon>frmUpdateUserInfoScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUserMainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUserMainScreen.Designer.cs">
+      <DependentUpon>frmUserMainScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="clients\frmAddNewClientScreen.resx">
+      <DependentUpon>frmAddNewClientScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clients\frmClientsMainMenuScreen.resx">
+      <DependentUpon>frmClientsMainMenuScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clients\frmShowAllClientsScreen.resx">
+      <DependentUpon>frmShowAllClientsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clients\frmUpdateClientScreen.resx">
+      <DependentUpon>frmUpdateClientScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Currencies\frmFindcurrencyScreen.resx">
+      <DependentUpon>frmFindcurrencyScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Currencies\frmUpdateRatesScreen.resx">
+      <DependentUpon>frmUpdateRatesScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCurrencyExchange.resx">
+      <DependentUpon>frmCurrencyExchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginRegisters.resx">
+      <DependentUpon>frmLoginRegisters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginScreen.resx">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenueScreen.resx">
+      <DependentUpon>frmMainMenueScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Transactions\frmDepositscreen.resx">
+      <DependentUpon>frmDepositscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\frmTotalBalncesScreen.resx">
+      <DependentUpon>frmTotalBalncesScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\frmTransactionsMainScreen.resx">
+      <DependentUpon>frmTransactionsMainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\frmTransferLog.resx">
+      <DependentUpon>frmTransferLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\frmTransferScreen.resx">
+      <DependentUpon>frmTransferScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmAddNewUserscreen.resx">
+      <DependentUpon>frmAddNewUserscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmShowAllUsersScreen.resx">
+      <DependentUpon>frmShowAllUsersScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUpdateUserInfoScreen.resx">
+      <DependentUpon>frmUpdateUserInfoScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUserMainScreen.resx">
+      <DependentUpon>frmUserMainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

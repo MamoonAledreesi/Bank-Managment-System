@@ -1,0 +1,17 @@
+8/9/2024 5:13:19 PM,user1,123,True,True,True
+8/9/2024 5:17:26 PM,user1,123,True,True,True
+8/9/2024 5:21:27 PM,user1,123,True,True,True
+8/9/2024 5:23:09 PM,user1,123,True,True,True
+8/9/2024 5:51:50 PM,user1,123,True,True,True
+8/9/2024 6:17:17 PM,user1,123,True,True,True
+8/9/2024 6:26:32 PM,user1,123,True,True,True
+8/9/2024 6:27:21 PM,user1,123,True,True,True
+8/13/2024 4:40:18 PM,user1,123,True,True,True
+8/13/2024 4:43:49 PM,user1,123,True,True,True
+8/13/2024 5:23:36 PM,user1,123,True,True,True
+8/13/2024 5:35:18 PM,user3,1237,False,False,True
+8/13/2024 5:36:34 PM,user1,123,True,True,True
+8/26/2024 12:41:44 AM,user1,123,True,True,True
+8/26/2024 12:43:53 AM,user1,123,True,True,True
+8/26/2024 12:45:19 AM,user1,123,True,True,True
+8/30/2024 3:48:02 PM,user1,123,True,True,True

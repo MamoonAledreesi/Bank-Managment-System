@@ -1,0 +1,4 @@
+user1,mamoon opid aledreesi,123,7777777777,Mamoon@gmail.com,True,True,True
+user3,ako,1237,5552255,Ali@gmail.com,False,False,True
+User4,Mamoon,1234,771156489,Mamoon@gmail.com,True,True,True
+

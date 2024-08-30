@@ -1,0 +1,7 @@
+8/5/2024 11:12:55 PM, ali mohammed, 9100, 4100, mamoon abod, 4000, 9000, 5000
+8/5/2024 11:14:55 PM, mamoon abod, 9000, 8000, ali mohammed, 4100, 5100, 1000
+8/5/2024 11:17:37 PM, ali mohammed, 7100, 7000, mamoon abod, 6000, 6100, 100
+8/5/2024 11:20:44 PM, mamoon abod, 6100, 5600, ali mohammed, 7000, 7500, 500
+8/5/2024 11:22:06 PM, mamoon abod, 5600, 5000, ali mohammed, 7500, 8100, 600
+8/5/2024 11:29:43 PM, ali mohammed, 8100, 5100, mamoon abod, 5000, 8000, 3000
+8/13/2024 5:32:05 PM, ali mohammed, 5100, 5000, ali adel, 5000, 5100, 100
